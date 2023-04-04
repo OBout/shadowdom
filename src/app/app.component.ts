@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shadow-dom-example';
+
+  onButtonClick(): void {
+    console.log('Button clicked!');
+  }
 }
